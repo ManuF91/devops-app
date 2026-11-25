@@ -19,4 +19,4 @@ spec:
             - containerPort: 8080
           env:
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:postgresql://db.5432/devops
+              value: jdbc:postgresql://db.database:5432/devops
